@@ -4,7 +4,24 @@ This repository contains implementations of various sorting algorithms in C lang
 
 ## Directory Files:
 
-## Algorithms Used:
+|Algorithms|Implementation|Complexity| Array | linked list |Test Files|
+|:-|:-:|:-:|:-:|:-:|:-:|
+|bubble sort|[0-bubble_sort.c](0-bubble_sort.c)|[0-O](0-O)|:heavy_check_mark:||[0-main.c](0-main.c)|
+|Insertion Sort|[1-insertion_sort_list.c](1-insertion_sort_list.c)|[1-O](1-O)||:heavy_check_mark:|[1-main.c](1-main.c)|
+|Selection Sort|[2-selection_sort.c](2-selection_sort.c)|[2-O](2-O)|:heavy_check_mark:||[2-main.c](2-main.c)|
+|Quick Sort|[3-quick_sort.c](3-quick_sort.c)|[3-O](3-O)|:heavy_check_mark:||[3-main.c](3-main.c)|
+|Selection Sort|[2-selection_sort.c](2-selection_sort.c)|[2-O](2-O)|:heavy_check_mark:||[2-main.c](2-main.c)|
+
+#### To Compile a Test Case:
+
+```Bash
+gcc print_array.c print_list.c 0-bubble_sort.c test_files/0-main.c -o bubble
+```
+
+You can find all tests on [test_files](test_files) and pre-compiled executables of test cases on [output](output)
+
+N.B: the array implementation of the algorithms implemented via linked lists can be found in their respective main test files.
+
 
 ## Big O notation ~ *"how code slows as data grows"*
 
