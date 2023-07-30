@@ -6,11 +6,18 @@ This repository contains implementations of various sorting algorithms in C lang
 
 |Algorithms|Implementation|Complexity| Array | linked list |Test Files|
 |:-|:-:|:-:|:-:|:-:|:-:|
-|bubble sort|[0-bubble_sort.c](0-bubble_sort.c)|[0-O](0-O)|:heavy_check_mark:||[0-main.c](0-main.c)|
+|Bubble Sort|[0-bubble_sort.c](0-bubble_sort.c)|[0-O](0-O)|:heavy_check_mark:||[0-main.c](0-main.c)|
 |Insertion Sort|[1-insertion_sort_list.c](1-insertion_sort_list.c)|[1-O](1-O)||:heavy_check_mark:|[1-main.c](1-main.c)|
 |Selection Sort|[2-selection_sort.c](2-selection_sort.c)|[2-O](2-O)|:heavy_check_mark:||[2-main.c](2-main.c)|
 |Quick Sort|[3-quick_sort.c](3-quick_sort.c)|[3-O](3-O)|:heavy_check_mark:||[3-main.c](3-main.c)|
-|Selection Sort|[2-selection_sort.c](2-selection_sort.c)|[2-O](2-O)|:heavy_check_mark:||[2-main.c](2-main.c)|
+|Shell Sort|[100-shell_sort.c](100-shell_sort.c)|[100-O](100-O)|:heavy_check_mark:||[100-main.c](100-main.c)|
+|Cocktail Sort|[101-cocktail_sort_list.c](101-cocktail_sort_list.c)|[101-O](101-O)||:heavy_check_mark:|[101-main.c](101-main.c)|
+|Counting Sort|[102-counting_sort.c](102-counting_sort.c)|[102-O](102-O)|:heavy_check_mark:||[102-main.c](102-main.c)|
+|Merge Sort|[103-merge_sort.c](103-merge_sort.c)|[103-O](103-O)|:heavy_check_mark:||[103-main.c](103-main.c)|
+|Heap Sort|[104-heap_sort.c](104-heap_sort.c)|[104-O](104-O)|:heavy_check_mark:||[104-main.c](104-main.c)|
+|Radix Sort|[105-radix_sort.c](105-radix_sort.c)|[105-O](105-O)|:heavy_check_mark:||[105-main.c](105-main.c)|
+|Bitonic Sort|[106-bitonic_sort.c](106-bitonic_sort.c)|[106-O](106-O)|:heavy_check_mark:||[106-main.c](106-main.c)|
+|Quick Sortn(Hoares)|[107-quick_sort_hoare.c](107-quick_sort_hoare.c)|[107-O](107-O)|:heavy_check_mark:||[107-main.c](107-main.c)|
 
 #### To Compile a Test Case:
 
