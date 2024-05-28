@@ -1,5 +1,7 @@
 def lomuto_partition(arr, start, end):
-    """"""
+    """
+        lomuto partition algorithm
+    """
     i, j = start, start
     pivot = arr[end]
 
@@ -17,6 +19,9 @@ def lomuto_partition(arr, start, end):
 
 
 def hoare_partition(arr, start, end):
+    """
+        hoare partition algorithm
+    """
     mid = (start + end) // 2
     arr[mid], arr[end] = arr[end], arr[mid]
 
@@ -41,7 +46,7 @@ def hoare_partition(arr, start, end):
 
 def quick_sort(arr, hoare=False):
     """
-        sorts an array of ints using bubble sort
+        sorts an array of ints using quick sort
     """
     size = len(arr)
 

@@ -29,7 +29,7 @@ def merge(arr, start, mid, end):
 
 def merge_sort(arr):
     """
-        sorts an array of ints using shell sort
+        sorts an array of ints using merge sort
     """
     size = len(arr)
     end = size - 1
